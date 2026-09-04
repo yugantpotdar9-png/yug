@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI & Data Science Workshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">NeuralWorks</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#register" class="btn-primary">Register Now</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Mastering Generative AI & Data Science</h1>
+            <p>Join our intensive 2-day hands-on workshop to build real-world AI applications from scratch.</p>
+            <a href="#register" class="btn-primary large">Secure Your Spot</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>What You'll Learn</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Foundation of GenAI</h3>
+                <p>Understand the core architectures behind LLMs and diffusion models.</p>
+            </div>
+            <div class="card">
+                <h3>Applied Data Science</h3>
+                <p>Clean, process, and extract insights from complex datasets using modern libraries.</p>
+            </div>
+            <div class="card">
+                <h3>Building Applications</h3>
+                <p>Deploy AI-driven solutions to the web focusing on ethical and secure implementations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section bg-light">
+        <h2>Workshop Schedule</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Day 1: The Data Pipeline</h3>
+                <p>9:00 AM - Data preprocessing, feature engineering, and model training basics.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Day 2: Generative Models</h3>
+                <p>9:00 AM - Prompt engineering, RAG architecture, and deployment strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="section">
+        <h2>Register for the Workshop</h2>
+        <form id="registrationForm" class="form-container">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required placeholder="Jane Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">College/University Email</label>
+                <input type="email" id="email" required placeholder="jane@university.edu">
+            </div>
+            <div class="form-group">
+                <label for="track">Select Track</label>
+                <select id="track" required>
+                    <option value="">-- Select a Track --</option>
+                    <option value="data-science">Data Science Core</option>
+                    <option value="gen-ai">Generative AI Applied</option>
+                    <option value="cybersecurity">AI in Cybersecurity</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-primary submit-btn">Confirm Registration</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 NeuralWorks Education. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
